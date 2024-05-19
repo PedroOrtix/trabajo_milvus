@@ -1,9 +1,7 @@
 ﻿# MEMORIA MILVUS
 
 ## 1. Cálculo de los embeddings
-borrar--------------
-<img  src=""  width="250"/>
-borrar---------------
+
 
 Para hacer el cálculo de los embedding, en esta práctica, se usa el modelo CLIP. Lo hacemos por batches de la siguiente manera:
 
@@ -34,9 +32,11 @@ Lo que hace la primera función es calcular el embedding de la imagen que hayamo
 
 Vamos a ver los resultados que hemos obtenido.
 Para la búsqueda por imágenes hemos escogido una foto de LeBron James:
+
 <img  src="https://lh7-us.googleusercontent.com/Zh7794R4UA_9GYiXk4tLO29Nj4it1v8PyJm2GzEQjrndkxzdpwKbWrIyFu7w_CW19ZvGFc2ShLaot4XRTD2EGUD_jkHmtQ3Or5kbkAZ5eI3SN4gt2llnYHbxgeHqc816AP5mJ_O_-ha4248aiuvXN3s"  width="400"/>
 
 Y para la búsqueda por texto hemos buscado "A portrait of blond men":
+
 <img  src="https://lh7-us.googleusercontent.com/mkDGXoaCZ3LUBbc-IB-huFpWf-2R8QTfyUacINdJ535wNNzpj45k8zpTRADnI1bXn60YXFuKgquYd56Roh28M5Kh1mBC2pQlsXmqy9OADAKTRPyJ709steGFkBpCpWCCNn8k-sUtQoEE5v06ET15xZ4"  width="400"/>
 
 Podemos ver que los resultados tienen sentido según las búsquedas que hemos hecho.
